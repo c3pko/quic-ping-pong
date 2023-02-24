@@ -1,0 +1,16 @@
+[package]
+name = "quic-client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quinn = "0.9.3"
+rustls-pemfile =  {version = "1.0.2"}
+rustls = { version = "0.20.8", features = ["dangerous_configuration", "quic"]}
+tokio = { version = "*", features = ["full"] }
+mini-redis = "0.4"
+rcgen = "*"
+pem = "1"
+x509-parser = "*"
