@@ -1,4 +1,4 @@
-Quic client-server app (python server, rust client)
+#Quic client-server app (python server, rust client)
 
 How to run:
 
